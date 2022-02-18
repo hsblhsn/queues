@@ -1,5 +1,7 @@
 # Queues
 
+[![CI](https://github.com/hsblhsn/queues/actions/workflows/ci.yml/badge.svg)](https://github.com/hsblhsn/queues/actions/workflows/ci.yml)
+
 A simple `sync.WaitGroup` like queue and goroutine execution controller.
 
 ## Features
