@@ -42,7 +42,7 @@ func main() {
 }
 ```
 
-### [🔗 Go Playground](https://go.dev/play/p/sRC4-KF6fPO): Batched queue for async jobs.
+### [🔗 Go Playground](https://go.dev/play/p/ZZg5zCvVqaB): Batched queue for async jobs.
 
 ```go
 package main
@@ -73,6 +73,6 @@ func main() {
 func crawl(q *queues.Q, url string) {
 	defer q.Done()
 	fmt.Println("Crawling: ", url)
-	time.Sleep(1)
+	time.Sleep(time.Second)
 }
 ```
