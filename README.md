@@ -1,6 +1,6 @@
 # Queues
 
-[![CI](https://github.com/hsblhsn/queues/actions/workflows/ci.yml/badge.svg)](https://github.com/hsblhsn/queues/actions/workflows/ci.yml) [![Go Reference](https://pkg.go.dev/badge/github.com/hsblhsn/queues.svg)](https://pkg.go.dev/github.com/hsblhsn/queues)
+[![CI](https://github.com/hsblhsn/queues/actions/workflows/ci.yml/badge.svg)](https://github.com/hsblhsn/queues/actions/workflows/ci.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/hsblhsn/queues)](https://goreportcard.com/report/github.com/hsblhsn/queues) [![Go Reference](https://pkg.go.dev/badge/github.com/hsblhsn/queues.svg)](https://pkg.go.dev/github.com/hsblhsn/queues) 
 
 A simple `sync.WaitGroup` like queue and goroutine execution controller.
 
