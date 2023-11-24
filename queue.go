@@ -45,11 +45,3 @@ func (q *Q) Done() {
 func (q *Q) Wait() {
 	q.wg.Wait()
 }
-
-// Exit calls q.Done() first then calls runtime.Goexit().
-// If called inside a goroutine, the goroutine will exit immediately.
-// See https://golang.org/pkg/runtime/#Goexit for the documentation.
-func (q *Q) Exit() {
-	q.Done()
-	runtime.Goexit()
-}
