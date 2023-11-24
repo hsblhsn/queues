@@ -1,9 +1,6 @@
 package queues
 
-import (
-	"runtime"
-	"sync"
-)
+import "sync"
 
 // Q is a queue.
 // Uses Go Channel and sync.WaitGroup under the hood.
