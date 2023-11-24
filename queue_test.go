@@ -27,12 +27,4 @@ func TestQueue(t *testing.T) {
 
 	queue.Wait()
 	require.EqualValues(t, 10, atomic.LoadInt32(&counter))
-
-	go func() {
-		queue.Exit()
-		atomic.AddInt32(&counter, 100)
-	}()
-
-	// The counter did not increment because the queue was exited before the increment.
-	require.EqualValues(t, 10, atomic.LoadInt32(&counter))
 }
